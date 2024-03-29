@@ -1,6 +1,7 @@
 //find the longest word
 
 const findLongestWord = (str) => {
+    //whitespace to zero
     if(str.trim().length === 0 ) {
         return false;
     }
@@ -12,3 +13,5 @@ const findLongestWord = (str) => {
 
 
 console.log(findLongestWord("My name is Kulveer Singh from Uttarakhand, India"));
+
+// output: Uttarakhand
